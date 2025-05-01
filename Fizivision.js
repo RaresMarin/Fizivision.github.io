@@ -116,3 +116,9 @@ function goPrevPage() {
         currentLocation--;
     }
 }
+    function calculeaza(){
+    const t = parseFloat(document.getElementById("tensiunea").value);
+    const r =parseFloat(document.getElementById("rezistenta").value);
+    const suma = t/r;
+    document.getElementById("calcul").innerHTML = suma;
+    }
