@@ -8,7 +8,7 @@
     li a{
         color:white;
         display:inline-block;
-        width:10%;
+        width:8%;
         
     }
     li {
